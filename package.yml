@@ -1,0 +1,18 @@
+name       : python-aiorpcx
+version    : 0.10.0
+release    : 1
+source     :
+    - https://github.com/kyuupichan/aiorpcX/archive/0.10.1.tar.gz : 343b050aac6a1904e77f91c3b05d3be80424a0088aa67773009aa33a46ab3ba3
+license    : MIT
+component  : programming.python
+summary    : Generic async RPC implementation, including JSON-RPC
+description: |
+    Generic async RPC implementation, including JSON-RPC
+builddeps  :
+    - python-attrs
+rundeps    :
+    - python-attrs
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
