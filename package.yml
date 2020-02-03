@@ -1,6 +1,6 @@
 name       : python-aiorpcx
 version    : 0.18.3
-release    : 2
+release    : 3
 source     :
     - https://github.com/kyuupichan/aiorpcX/archive/0.18.3.tar.gz : 3d0f31ad9d2369bdf8a86106eccc0fef9245b917e750df68497cde8cc19a6192
 license    : MIT
